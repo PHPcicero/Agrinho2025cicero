@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato | Conexão Campo-Cidade</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fcf8f3;
+      color: #333;
+      padding: 40px 20px;
+    }
+    h1 {
+      color: #5a7830;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .contato-form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .contato-form input,
+    .contato-form textarea {
+      padding: 10px;
+      font-size: 1em;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    .contato-form button {
+      padding: 10px;
+      background-color: #5a7830;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1em;
+      cursor: pointer;
+    }
+    .contato-form button:hover {
+      background-color: #476021;
+    }
+    footer {
+      margin-top: 40px;
+      background-color: #5a7830;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Fale Conosco</h1>
+  <form class="contato-form">
+    <input type="text" name="nome" placeholder="Seu nome" required />
+    <input type="email" name="email" placeholder="Seu e-mail" required />
+    <textarea name="mensagem" rows="5" placeholder="Escreva sua dúvida aqui..." required></textarea>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <footer>
+    <p>&copy; 2025 Festejando a Conexão Campo-Cidade. Todos os direitos reservados.</p>
+    <p>Feito por Cicero</p>
+  </footer>
+</body>
+</html>
